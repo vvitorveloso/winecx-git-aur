@@ -76,7 +76,6 @@ optdepends=(
 
 )
 options=('staticlibs' '!lto')
-install="${pkgname}.install"
 provides=("winecx=${pkgver}" "bin32-winecx=${pkgver}" "winecx-wow64=${pkgver}")
 conflicts=('winecx')
 replaces=('winecx')
