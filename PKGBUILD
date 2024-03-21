@@ -84,7 +84,7 @@ source=('git+https://github.com/Gcenx/winecx.git'
 	'30-win32-aliases.conf')
 sha256sums=('SKIP'
 	    '5d30dd4fa71b55ae5f3e30782a2c93ec506a6c6f65017c1a0995230ad7b39a82'
-            '5d30dd4fa71b55ae5f3e30782a2c93ec506a6c6f65017c1a0995230ad7b39a82')
+            '9901a5ee619f24662b241672a7358364617227937d5f6d3126f70528ee5111e7')
 
 prepare() {
     cp "${srcdir}/distversion.h" "${srcdir}/winecx/programs/winedbg/distversion.h"
